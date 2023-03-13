@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Source at Astun Technology</title>
+
+		<meta name="description" content="Open Source at Astun Technology">
+		<meta name="author" content="Astun Technology">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="custom/astun.css">
+		<!-- <link rel="stylesheet" href="custom/custom.css"> -->
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3 style="color:var(--astun-indigo)">Open Source at Astun Technology</h3>
+					<p>
+						<small><a href="http://astuntechnology.com">Matt Walker and Jo Cook | Astun Technology</a></small>
+					</p>
+				</section>
+
+				
+
+			</div>
+
+			<div class="fe-persistent-header">
+ 				<img src="./images/AstunSmallLogo.png"/>
+				<p style="color: var(--astun-red);font-weight:600">Open Source at Astun Technology</p>
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				pdfMaxPagesPerSlide: 1,
+				pdfSeparateFragments: false,
+				slideNumber: "c/t",
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+			Reveal.configure({ showNotes: 'separate-page' });
+
+		</script>
+
+	</body>
+</html>
